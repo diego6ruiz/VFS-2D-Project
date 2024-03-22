@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private float lastMoveHorizontal;
 
+    public Vector2 weaponSpawn;
+
     public Vector2 respawnPoint;
     public float deathThreshold = -10f; 
 
